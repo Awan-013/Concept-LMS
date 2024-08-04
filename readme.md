@@ -1,6 +1,7 @@
 Project Concept LMS untuk UAS Semester 1 
 
 Nama : Hary Kurniawan
+
 Nim : 230401010290
 
 Laravel 5.5
@@ -12,8 +13,11 @@ copy & rename .env.example -> .env
 run
 
 php artisan migrate
+
 php artisan db:seed --class=QuestionsTableSeeder
+
 php artisan db:seed --class=UsersTableSeeder
+
 php artisan key:generate
 
 
